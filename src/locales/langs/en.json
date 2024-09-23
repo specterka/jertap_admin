@@ -1,0 +1,1648 @@
+{
+  "dashboard": {
+    "layout": {
+      "sidebar": {
+        "menus": {
+          "overview": "Overview",
+          "app": "App",
+          "management": "Management",
+          "category": "Category",
+          "subCategory": "Sub Category",
+          "cuisine": "Cuisine",
+          "collaborator": "Collaborator",
+          "claim": "Claim",
+          "user": "User",
+          "business": "Business",
+          "service": "Service",
+          "ads": "Ads",
+          "reportReviews": "Report Reviews",
+          "dispute": "Dispute",
+          "menuType": "Menu Type",
+          "list": "List",
+          "create": "Create",
+          "requests": "Requests"
+        }
+      },
+      "header": {
+        "notification": {
+          "heading": "Notifications",
+          "emptyMessage": "No Unread Notifications"
+        },
+        "accountMenu": {
+          "logout": "Logout"
+        },
+        "settings": {
+          "heading": "Settings",
+          "mode": "Mode",
+          "contrast": "Contrast",
+          "direction": "Direction",
+          "layout": "Layout",
+          "stretch": "Stretch",
+          "stretchMessage": "Only available at large resolutions > 1600px (xl)",
+          "presets": "Presets",
+          "exitFullScreen": "Exit Fullscreen",
+          "fullScreen": "Fullscreen"
+        },
+        "search": {
+          "label": "Search...",
+          "notFound": "Not Found",
+          "noResults": "No results found for",
+          "typo": "Try checking for typos or using complete words.",
+          "empty": "Please enter keywords"
+        },
+        "userTypes": {
+          "visitor": "Visitor",
+          "owner": "Business Owner",
+          "manager": "Business Manager",
+          "admin": "Admin"
+        }
+      },
+      "auth": {
+        "login": {
+          "auth": {
+            "login": {
+              "form": {
+                "title": "Sign in to Jertap Admin",
+                "fields": {
+                  "mobile": {
+                    "label": "Mobile Number",
+                    "placeholder": "Enter your mobile number",
+                    "errors": {
+                      "required": "Mobile number is required",
+                      "invalid": "Mobile number must be a valid"
+                    }
+                  },
+                  "email": {
+                    "label": "Email",
+                    "placeholder": "Enter your email address",
+                    "errors": {
+                      "required": "Email address is required",
+                      "invalid": "Email address must be a valid email address"
+                    }
+                  },
+                  "code": {
+                    "errors": {
+                      "required": "Code is required",
+                      "invalid": "Code must be at least 6 characters"
+                    },
+                    "resendCodeText": "Don’t have a code? ",
+                    "emailCheckText": "Please check your email!",
+                    "codeSentText": "We have sent a 6-digit confirmation code to you, please enter the code in below box to verify."
+                  }
+                },
+                "button": {
+                  "login": "Login",
+                  "verify": "Verify",
+                  "resend": "Resend code"
+                }
+              },
+              "tabs": {
+                "phoneNumber": "Phone Number",
+                "email": "Email Address"
+              }
+            }
+          },
+
+          "category": {
+            "heading": "Category List",
+            "page_name": {
+              "dashboard": "Dashboard",
+              "category": "Category",
+              "list": "List"
+            },
+            "button": {
+              "new": "New Category",
+              "delete": "Delete"
+            },
+            "confirmation": {
+              "title": "Delete",
+              "description": "Are you sure you want to delete",
+              "items": "items?"
+            },
+            "table_row": {
+              "button": {
+                "delete": "Delete"
+              },
+              "confirmation": {
+                "title": "Delete",
+                "description": "Are you sure you want to delete",
+                "category": "category?",
+                "delete_button": "Delete"
+              }
+            },
+            "update_menu": {
+              "heading": {
+                "add": "Add",
+                "update": "Update",
+                "category": "Category"
+              },
+              "form": {
+                "field": {
+                  "name": {
+                    "label": "Category Name",
+                    "errors": {
+                      "required": "Category name is required",
+                      "invalid": "Enter valid category",
+                      "minLength": "Category is too short - should be at least 1 characters",
+                      "maxLength": "Category is too long - should be at most 50 characters",
+                      "regex": "Category name must start with a letter, and only contain letters and numbers"
+                    }
+                  },
+                  "name_ru": {
+                    "label": "Category Name (in Russian)",
+                    "errors": {
+                      "required": "Category name is required",
+                      "invalid": "Enter valid category",
+                      "minLength": "Category is too short - should be at least 1 characters",
+                      "maxLength": "Category is too long - should be at most 50 characters",
+                      "regex": "Category name must start with a letter, and only contain letters and numbers"
+                    }
+                  },
+                  "icon": {
+                    "label": "Category Icon",
+                    "errors": {
+                      "isExist": "Please select a icon image",
+                      "fileSize": "Icon size is too large"
+                    }
+                  }
+                },
+                "button": {
+                  "cancel": "Cancel",
+                  "update": "Update",
+                  "create": "Create"
+                }
+              }
+            }
+          },
+          "subCategory": {
+            "heading": "Sub Category List",
+            "page_name": {
+              "dashboard": "Dashboard",
+              "category": "Sub Category",
+              "list": "List"
+            },
+            "button": {
+              "new": "New Sub Category",
+              "delete": "Delete"
+            },
+            "confirmation": {
+              "title": "Delete",
+              "description": "Are you sure you want to delete",
+              "items": "items?"
+            },
+            "table_row": {
+              "button": {
+                "delete": "Delete"
+              },
+              "confirmation": {
+                "title": "Delete",
+                "description": "Are you sure you want to delete",
+                "category": "category?",
+                "delete_button": "Delete"
+              }
+            },
+            "update_menu": {
+              "heading": {
+                "add": "Add",
+                "update": "Update",
+                "category": "Sub Category"
+              },
+              "form": {
+                "field": {
+                  "name": {
+                    "label": "Sub Category Name",
+                    "errors": {
+                      "required": "Category name is required",
+                      "invalid": "Enter valid category",
+                      "minLength": "Category is too short - should be at least 1 characters",
+                      "maxLength": "Category is too long - should be at most 50 characters",
+                      "regex": "Category name must start with a letter, and only contain letters and numbers"
+                    }
+                  },
+                  "category": {
+                    "label": "Sub Category Name (in Russian)",
+                    "errors": {
+                      "id": "Category is required",
+                      "name": "Category name is required",
+                      "required": "Category is required"
+                    }
+                  },
+                  "icon": {
+                    "label": "Sub Category Icon",
+                    "errors": {
+                      "isExist": "Please select a icon image",
+                      "fileSize": "Icon size is too large"
+                    }
+                  }
+                },
+                "button": {
+                  "cancel": "Cancel",
+                  "update": "Update",
+                  "create": "Create"
+                }
+              }
+            }
+          },
+          "cuisine": {
+            "heading": "Cuisine List",
+            "page_name": {
+              "dashboard": "Dashboard",
+              "cuisine": "Cuisine",
+              "list": "List"
+            },
+            "button": {
+              "new": "New Cuisine",
+              "delete": "Delete"
+            },
+            "confirmation": {
+              "title": "Delete",
+              "description": "Are you sure you want to delete",
+              "items": "items?"
+            },
+            "table_row": {
+              "button": {
+                "delete": "Delete"
+              },
+              "confirmation": {
+                "title": "Delete",
+                "description": "Are you sure you want to delete",
+                "cuisine": "cuisine?",
+                "delete_button": "Delete"
+              }
+            },
+            "update_menu": {
+              "heading": {
+                "add": "Add",
+                "update": "Update",
+                "cuisine": "Sub Cuisine"
+              },
+              "form": {
+                "field": {
+                  "cuisines": {
+                    "label": "Cuisine",
+                    "errors": {
+                      "required": "Cuisine is required",
+                      "invalid": "Enter valid Cuisine",
+                      "minLength": "Cuisine is too short - should be at least 1 characters",
+                      "maxLength": "Cuisine is too long - should be at most 50 characters",
+                      "regex": "Cuisine must start with a letter, and only contain letters and numbers"
+                    }
+                  },
+                  "cuisines_ru": {
+                    "label": "Cuisine (In Russian)",
+                    "errors": {
+                      "required": "Cuisine in russian is required",
+                      "invalid": "Enter valid Cuisine in russian",
+                      "minLength": "Cuisine in russian is too short - should be at least 1 characters",
+                      "maxLength": "Cuisine in russian is too long - should be at most 50 characters",
+                      "regex": "Cuisine must start with a letter, and only contain letters and numbers"
+                    }
+                  }
+                },
+                "button": {
+                  "cancel": "Cancel",
+                  "update": "Update",
+                  "create": "Create"
+                }
+              }
+            }
+          },
+          "collaborator": {
+            "heading": "Collaborator List",
+            "page_name": {
+              "dashboard": "Dashboard",
+              "collaborators": "Collaborators",
+              "list": "List"
+            },
+            "button": {
+              "new": "New Collaborator",
+              "delete": "Delete"
+            },
+            "confirmation": {
+              "title": "Delete",
+              "description": "Are you sure you want to delete",
+              "items": "items?"
+            },
+            "table_row": {
+              "button": {
+                "delete": "Delete",
+                "edit": "Edit"
+              },
+              "confirmation": {
+                "title": "Delete",
+                "description": "Are you sure you want to delete",
+                "collaborator": "collaborator?",
+                "delete_button": "Delete"
+              }
+            },
+            "create": {
+              "heading": "Create a new collaborator",
+              "form": {
+                "field": {
+                  "full_name": {
+                    "label": "Full Name",
+                    "errors": {
+                      "required": "Collaborator is required",
+                      "invalid": "Enter valid Collaborator",
+                      "minLength": "Collaborator is too short - should be at least 1 characters",
+                      "maxLength": "Collaborator is too long - should be at most 50 characters",
+                      "regex": "Collaborator name must start with a letter, and only contain letters and numbers"
+                    }
+                  },
+                  "description": {
+                    "label": "Description",
+                    "errors": {
+                      "required": "Description is required",
+                      "invalid": "Enter valid Description",
+                      "minLength": "Description is too short - should be at least 1 characters",
+                      "maxLength": "Description is too long - should be at most 1000 characters",
+                      "regex": "Description must start with a letter, and only contain letters and numbers"
+                    }
+                  },
+                  "youtube_channel_link": {
+                    "label": "Youtube Channel Link",
+                    "errors": {
+                      "required": "Youtube channel link is required",
+                      "url": "Enter valid link"
+                    }
+                  },
+                  "fb_profile_link": {
+                    "label": "Facebook Profile Link",
+                    "errors": {
+                      "required": "Facebook profile link is required",
+                      "url": "Enter valid link"
+                    }
+                  },
+                  "insta_profile_link": {
+                    "label": "Instagram Profile Link",
+                    "errors": {
+                      "required": "Instagram profile link is required",
+                      "url": "Enter valid link"
+                    }
+                  },
+                  "twitter_profile_link": {
+                    "label": "Twitter Profile Link",
+                    "errors": {
+                      "required": "Twitter/X profile link is required",
+                      "url": "Enter valid link"
+                    }
+                  },
+                  "profile_pic": {
+                    "errors": {
+                      "required": "Profile picture is required"
+                    }
+                  },
+                  "whatsapp": {
+                    "label": "Whatsapp contact",
+                    "placeholder": "Enter your whatsapp contact",
+                    "errors": {
+                      "required": "Whatsapp contact is required",
+                      "invalid": "Whatsapp contact number must be a valid whatsapp contact"
+                    }
+                  },
+                  "is_active": {
+                    "heading": " Is Active?"
+                  }
+                },
+                "button": {
+                  "create": "Create Collaborator",
+                  "save": "Save Changes"
+                }
+              }
+            }
+          }
+        },
+        "claim": {
+          "heading": "Claim List",
+          "page_name": {
+            "dashboard": "Dashboard",
+            "claim": "Claim",
+            "list": "List"
+          },
+          "table_row": {
+            "button": {
+              "delete": "Delete",
+              "view": "View Claim",
+              "approve": "Approve"
+            },
+            "confirmation": {
+              "title": "Delete",
+              "description": "Are you sure want to delete this claim?",
+              "delete_button": "Delete"
+            }
+          },
+          "detail": {
+            "heading": "Claim Detail",
+            "label1": "Business Name",
+            "label2": "Address",
+            "label3": "Contact",
+            "label4": "Username",
+            "label5": "Contact",
+            "label6": "Email"
+          }
+        }
+      }
+    },
+    "app": {
+      "placeholders": {
+        "activeBusiness": "Active Business",
+        "totalBusinessOwner": "Total Business Owner",
+        "totalVisitors": "Total Visitors",
+        "pendingClaimRequest": "Pending Claim Requests",
+        "pendingDetailRequest": "Pending Details Requests",
+        "pendingBusiness": "Pending Businesses",
+        "businessTypes": "Business Types"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "form": {
+        "title": "Sign in to Jertap Admin",
+        "fields": {
+          "mobile": {
+            "label": "Mobile Number",
+            "placeholder": "Enter your mobile number",
+            "errors": {
+              "required": "Mobile number is required",
+              "invalid": "Mobile number must be a valid"
+            }
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "Enter your email address",
+            "errors": {
+              "required": "Email address is required",
+              "invalid": "Email address must be a valid email address"
+            }
+          },
+          "code": {
+            "errors": {
+              "required": "Code is required",
+              "invalid": "Code must be at least 6 characters"
+            },
+            "resendCodeText": "Don’t have a code? ",
+            "emailCheckText": "Please check your email!",
+            "codeSentText": "We have sent a 6-digit confirmation code to you, please enter the code in below box to verify."
+          }
+        },
+        "button": {
+          "login": "Login",
+          "verify": "Verify",
+          "resend": "Resend code"
+        }
+      },
+      "tabs": {
+        "phoneNumber": "Phone Number",
+        "email": "Email Address"
+      }
+    }
+  },
+  "keywords": {
+    "businessTypes": {
+      "cafe": "Cafe",
+      "restaurant": "Restaurant"
+    },
+    "businessStatus": {
+      "notCreated": "Not Created",
+      "underReview": "Under review",
+      "approved": "Approved"
+    },
+    "userTypes": {
+      "visitor": "Visitor",
+      "owner": "Business Owner",
+      "manager": "Business Manager",
+      "admin": "Admin"
+    },
+    "disputeStatus": {
+      "resolved": "Resolved",
+      "pending": "Pending",
+      "all": "All"
+    },
+    "toastMessages": {
+      "auth": {
+        "login": "Login Successfully",
+        "logout": "Logout Successfully",
+        "otpSent": "OTP Sent Successfully",
+        "otpVerify": "OTP verified Successfully"
+      },
+      "common": {
+        "generalError": "Oops! Something went wrong"
+      },
+      "dashboard": {
+        "notificationRead": "Notification(s) has been marked as read",
+        "businessMenuCreate": "Business menu has been created successfully",
+        "businessMenuUpdate": "Business menu has been updated successfully",
+        "businessMenuDelete": "Business menu has been deleted successfully",
+        "businessMenuUpload": "Business menu has been uploaded successfully",
+        "qaDelete": "QA list has been deleted successfully",
+        "qaUpdate": "QA is been added",
+        "queryReplay": "Query replay has been sent successfully",
+        "queryReplayUpdate": "Query replay has been updated successfully",
+        "categoryCreate": "Category has been created successfully",
+        "categoryUpdate": "Category has been updated successfully",
+        "categoriesDelete": "Selected categories has been deleted successfully",
+        "categoryDelete": "Category has been deleted successfully",
+        "subCategoryCreate": "Sub category has been created successfully",
+        "subCategoryDelete": "Sub category has been deleted successfully",
+        "subCategoriesDelete": "Selected sub categories has been deleted successfully",
+        "subCategoryUpdate": "Sub category has been updated successfully",
+        "collaboratorCreate": "Collaborator has been created successfully",
+        "collaboratorDelete": "Collaborator has been deleted successfully",
+        "collaboratorsDelete": "Selected collaborators has been deleted successfully",
+        "collaboratorUpdate": "Collaborator has been updated successfully",
+        "userDelete": "User has been deleted successfully",
+        "usersDelete": "Selected users has been deleted successfully",
+        "userUpdate": "User has been updated successfully",
+        "claimDelete": "Claim has been deleted successfully",
+        "claimsDelete": "Selected claims has been deleted successfully",
+        "claimUpdate": "Claim has been updated successfully",
+        "businessDelete": "Business has been deleted successfully",
+        "businessUpdate": "Business has been updated successfully",
+        "businessCreate": "Business has been added successfully",
+        "businessTimingUpdate": "Business timings has been updated successfully",
+        "serviceCreate": "Service has been created successfully",
+        "serviceDelete": "Service has been deleted successfully",
+        "serviceUpdate": "Service has been updated successfully",
+        "adsCreate": "Advertisement has been created successfully",
+        "adsDelete": "Advertisement(s) has been deleted successfully",
+        "adsUpdate": "Advertisement has been updated successfully",
+        "reportedReviewDelete": "Reported review has been deleted successfully",
+        "reportedReviewsDelete": "Reported reviews has been deleted successfully",
+        "reportedReviewApprove": "Reported review has been approved successfully",
+        "businessRequestDelete": "Business request has been deleted successfully",
+        "businessRequestsDelete": "Business requests has been deleted successfully",
+        "businessRequestsApprove": "Business request has been approved successfully",
+        "disputeDelete": "User dispute has been deleted successfully",
+        "disputesDelete": "User disputes has been deleted successfully",
+        "disputeResolve": "User dispute resolved successfully",
+        "cuisineCreate": "Cuisine has been created successfully",
+        "cuisineDelete": "Cuisine has been deleted successfully",
+        "cuisineUpdate": "Cuisine has been updated successfully",
+        "menuTypeCreate": "Menu type has been created successfully",
+        "menuTypeDelete": "Menu type has been deleted successfully",
+        "menuTypeUpdate": "Menu type has been updated successfully",
+        "businessCuisineAdd": "Cuisine has been added successfully",
+        "businessCuisineDelete": "Cuisine has been deleted successfully",
+        "businessPaymentMethodCreate": "Payment method has been added successfully",
+        "businessPaymentMethodDelete": "Payment method has been deleted successfully"
+      }
+    }
+  },
+  "category": {
+    "heading": "Category List",
+    "page_name": {
+      "dashboard": "Dashboard",
+      "category": "Category",
+      "list": "List"
+    },
+    "button": {
+      "new": "New Category",
+      "delete": "Delete"
+    },
+    "confirmation": {
+      "title": "Delete",
+      "description": "Are you sure you want to delete",
+      "items": "items?"
+    },
+    "list": {
+      "heading": {
+        "icon": "Icon",
+        "name": "Name",
+        "name_ru": "Category Name (in Russian)",
+        "created_at": "Created At",
+        "modified_at": "Modified At"
+      },
+      "emptyText": "No Categories Found",
+      "toolbar": {
+        "search": "Search...",
+        "searchCategory": "Search Category"
+      }
+    },
+    "table_row": {
+      "button": {
+        "delete": "Delete"
+      },
+      "confirmation": {
+        "title": "Delete",
+        "description": "Are you sure you want to delete",
+        "category": "category?",
+        "delete_button": "Delete",
+        "child_delete": "All sub categories related to this category will be deleted."
+      },
+      "edit": "Edit Category"
+    },
+    "update_menu": {
+      "heading": {
+        "add": "Add",
+        "update": "Update",
+        "category": "Category"
+      },
+      "form": {
+        "field": {
+          "name": {
+            "label": "Category Name",
+            "errors": {
+              "required": "Category name is required",
+              "invalid": "Enter valid category",
+              "minLength": "Category is too short - should be at least 1 characters",
+              "maxLength": "Category is too long - should be at most 50 characters",
+              "regex": "Category name must start with a letter, and only contain letters and numbers"
+            }
+          },
+          "name_ru": {
+            "label": "Category Name (in Russian)",
+            "errors": {
+              "required": "Category name is required",
+              "invalid": "Enter valid category",
+              "minLength": "Category is too short - should be at least 1 characters",
+              "maxLength": "Category is too long - should be at most 50 characters",
+              "regex": "Category name must start with a letter, and only contain letters and numbers"
+            }
+          },
+          "icon": {
+            "label": "Category Icon",
+            "errors": {
+              "isExist": "Please select a icon image",
+              "fileSize": "Icon size is too large"
+            }
+          }
+        },
+        "button": {
+          "cancel": "Cancel",
+          "update": "Update",
+          "create": "Create"
+        }
+      }
+    }
+  },
+  "subCategory": {
+    "heading": "Sub Category List",
+    "page_name": {
+      "dashboard": "Dashboard",
+      "category": "Sub Category",
+      "list": "List"
+    },
+    "button": {
+      "new": "New Sub Category",
+      "delete": "Delete"
+    },
+    "confirmation": {
+      "title": "Delete",
+      "description": "Are you sure you want to delete",
+      "items": "items?"
+    },
+    "list": {
+      "heading": {
+        "icon": "Icon",
+        "category": "Category",
+        "name": "Name",
+        "name_ru": "Sub Category Name (in Russian)",
+        "created_at": "Created At",
+        "modified_at": "Modified At"
+      },
+      "emptyText": "No Sub Categories Found"
+    },
+    "table_row": {
+      "button": {
+        "delete": "Delete"
+      },
+      "confirmation": {
+        "title": "Delete",
+        "description": "Are you sure you want to delete",
+        "category": "category?",
+        "delete_button": "Delete"
+      }
+    },
+    "update_menu": {
+      "heading": {
+        "add": "Add",
+        "update": "Update",
+        "category": "Sub Category"
+      },
+      "form": {
+        "field": {
+          "name": {
+            "label": "Sub Category Name",
+            "errors": {
+              "required": "Sub Category name is required",
+              "invalid": "Enter valid sub category",
+              "minLength": "Sub category is too short - should be at least 1 characters",
+              "maxLength": "Sub category is too long - should be at most 50 characters",
+              "regex": "Sub category name must start with a letter, and only contain letters and numbers"
+            }
+          },
+          "name_ru": {
+            "label": "Sub Category Name (in Russian)",
+            "errors": {
+              "id": "Sub Category is required",
+              "name": "Sub category name is required",
+              "required": "Sub Category is required"
+            }
+          },
+          "category": {
+            "label": "Category",
+            "errors": {
+              "id": "Category is required",
+              "name": "Category name is required",
+              "required": "Category is required"
+            }
+          },
+          "icon": {
+            "label": "Sub Category Icon",
+            "errors": {
+              "isExist": "Please select a icon image",
+              "fileSize": "Icon size is too large"
+            }
+          }
+        },
+        "button": {
+          "cancel": "Cancel",
+          "update": "Update",
+          "create": "Create"
+        }
+      }
+    }
+  },
+  "cuisine": {
+    "heading": "Cuisine List",
+    "page_name": {
+      "dashboard": "Dashboard",
+      "cuisine": "Cuisine",
+      "list": "List"
+    },
+    "button": {
+      "new": "New Cuisine",
+      "delete": "Delete"
+    },
+    "confirmation": {
+      "title": "Delete",
+      "description": "Are you sure you want to delete",
+      "items": "items?"
+    },
+    "list": {
+      "heading": {
+        "cuisines": "Cuisine",
+        "cuisines_ru": "Cuisine (In Russian)",
+        "created_at": "Created At",
+        "modified_at": "Modified At"
+      },
+      "emptyText": "No Cuisines Found"
+    },
+    "table_row": {
+      "button": {
+        "delete": "Delete",
+        "edit": "Edit Cuisine"
+      },
+      "confirmation": {
+        "title": "Delete",
+        "description": "Are you sure you want to delete",
+        "cuisine": "cuisine?",
+        "delete_button": "Delete"
+      }
+    },
+    "update_menu": {
+      "heading": {
+        "add": "Add",
+        "update": "Update",
+        "cuisine": "Cuisine"
+      },
+      "form": {
+        "field": {
+          "cuisines": {
+            "label": "Cuisine",
+            "errors": {
+              "required": "Cuisine is required",
+              "invalid": "Enter valid Cuisine",
+              "minLength": "Cuisine is too short - should be at least 1 characters",
+              "maxLength": "Cuisine is too long - should be at most 50 characters",
+              "regex": "Cuisine must start with a letter, and only contain letters and numbers"
+            }
+          },
+          "cuisines_ru": {
+            "label": "Cuisine (In Russian)",
+            "errors": {
+              "required": "Cuisine in russian is required",
+              "invalid": "Enter valid Cuisine in russian",
+              "minLength": "Cuisine in russian is too short - should be at least 1 characters",
+              "maxLength": "Cuisine in russian is too long - should be at most 50 characters",
+              "regex": "Cuisine must start with a letter, and only contain letters and numbers"
+            }
+          }
+        },
+        "button": {
+          "cancel": "Cancel",
+          "update": "Update",
+          "create": "Create"
+        }
+      }
+    },
+    "toolbar": {
+      "search": "Search Cuisine..."
+    }
+  },
+  "collaborator": {
+    "heading": "Collaborator List",
+    "page_name": {
+      "dashboard": "Dashboard",
+      "collaborators": "Collaborators",
+      "list": "List"
+    },
+    "button": {
+      "new": "New Collaborator",
+      "delete": "Delete"
+    },
+    "confirmation": {
+      "title": "Delete",
+      "description": "Are you sure you want to delete",
+      "items": "items?"
+    },
+    "list": {
+      "heading": {
+        "full_name": "Full name",
+        "whatsapp": "Whatsapp",
+        "is_active": "Status",
+        "created_at": "Created At",
+        "modified_at": "Modified At"
+      },
+      "emptyText": "No Collaborators Found"
+    },
+    "table_row": {
+      "button": {
+        "delete": "Delete",
+        "edit": "Edit"
+      },
+      "confirmation": {
+        "title": "Delete",
+        "description": "Are you sure you want to delete",
+        "collaborator": "collaborator?",
+        "delete_button": "Delete"
+      }
+    },
+    "create": {
+      "heading": "Create a new collaborator",
+      "form": {
+        "field": {
+          "full_name": {
+            "label": "Full Name",
+            "errors": {
+              "required": "Collaborator is required",
+              "invalid": "Enter valid Collaborator",
+              "minLength": "Collaborator is too short - should be at least 1 characters",
+              "maxLength": "Collaborator is too long - should be at most 50 characters",
+              "regex": "Collaborator name must start with a letter, and only contain letters and numbers"
+            }
+          },
+          "description": {
+            "label": "Description",
+            "errors": {
+              "required": "Description is required",
+              "invalid": "Enter valid Description",
+              "minLength": "Description is too short - should be at least 1 characters",
+              "maxLength": "Description is too long - should be at most 1000 characters",
+              "regex": "Description must start with a letter, and only contain letters and numbers"
+            }
+          },
+          "youtube_channel_link": {
+            "label": "Youtube Channel Link",
+            "errors": {
+              "required": "Youtube channel link is required",
+              "url": "Enter valid link"
+            }
+          },
+          "fb_profile_link": {
+            "label": "Facebook Profile Link",
+            "errors": {
+              "required": "Facebook profile link is required",
+              "url": "Enter valid link"
+            }
+          },
+          "insta_profile_link": {
+            "label": "Instagram Profile Link",
+            "errors": {
+              "required": "Instagram profile link is required",
+              "url": "Enter valid link"
+            }
+          },
+          "twitter_profile_link": {
+            "label": "Twitter Profile Link",
+            "errors": {
+              "required": "Twitter/X profile link is required",
+              "url": "Enter valid link"
+            }
+          },
+          "profile_pic": {
+            "errors": {
+              "required": "Profile picture is required"
+            }
+          },
+          "whatsapp": {
+            "label": "Whatsapp contact",
+            "placeholder": "Enter your whatsapp contact",
+            "errors": {
+              "required": "Whatsapp contact is required",
+              "invalid": "Whatsapp contact number must be a valid whatsapp contact"
+            }
+          },
+          "is_active": {
+            "heading": " Is Active?"
+          }
+        },
+        "button": {
+          "create": "Create Collaborator",
+          "save": "Save Changes",
+          "cancel": "Cancel"
+        }
+      }
+    }
+  },
+  "menuType": {
+    "heading": "Menu Type List",
+    "links": {
+      "dashboard": "Dashboard",
+      "menuType": "Menu Type",
+      "list": "List"
+    },
+    "button": {
+      "add": "New Menu Type",
+      "delete": "Delete"
+    },
+    "tooltip": {
+      "delete": "Delete",
+      "edit": "Edit menu type"
+    },
+    "list": {
+      "emptyText": "No Menu Types Found",
+      "heading": {
+        "menuType": "Menu Type",
+        "menuTypeRu": "Menu Type (in Russian)"
+      }
+    },
+    "texts": {
+      "confirmationText": "Are you sure want to delete",
+      "type": "items?",
+      "menuType": "menu type?"
+    },
+    "form": {
+      "search": {
+        "placeholder": "Search service name..."
+      },
+      "add": {
+        "heading": {
+          "add": "Add",
+          "update": "Update",
+          "menuType": "Menu Type"
+        },
+        "fields": {
+          "menuType": {
+            "label": "Menu Type",
+            "errors": {
+              "required": "Menu type is required",
+              "invalid": "Enter valid menu type",
+              "minLength": "Menu type is too short",
+              "maxLength": "Menu type is too long - should be at most 50 characters",
+              "regex": "Menu type must start with a letter, and only contain letters and numbers"
+            }
+          },
+          "menuTypeRu": {
+            "label": "Menu Type (in Russian)",
+            "errors": {
+              "required": "Menu type (in Russian) is required",
+              "invalid": "Enter valid menu type (in Russian)",
+              "minLength": "Menu type (in Russian) is too short",
+              "maxLength": "Menu type (in Russian) is too long - should be at most 50 characters",
+              "regex": "Menu type (in Russian) must start with a letter, and only contain letters and numbers"
+            }
+          }
+        },
+        "button": {
+          "cancel": "Cancel",
+          "create": "Create",
+          "update": "Update"
+        }
+      }
+    }
+  },
+  "claim": {
+    "heading": "Claim List",
+    "page_name": {
+      "dashboard": "Dashboard",
+      "claim": "Claim",
+      "list": "List"
+    },
+    "list": {
+      "heading": {
+        "request_for": "Request For",
+        "request_by": "Raised By",
+        "is_approved": "Is Approved?",
+        "created_at": "Raised At",
+        "modified_at": "Updated At"
+      }
+    },
+    "table_row": {
+      "button": {
+        "delete": "Delete",
+        "view": "View Claim",
+        "approve": "Approve"
+      },
+      "confirmation": {
+        "title": "Delete",
+        "description": "Are you sure want to delete this claim?",
+        "delete_button": "Delete"
+      }
+    },
+    "detail": {
+      "heading": "Claim Detail",
+      "label1": "Business Name",
+      "label2": "Address",
+      "label3": "Contact",
+      "label4": "Username",
+      "label5": "Contact",
+      "label6": "Email",
+      "details_heading": "Business Details",
+      "details_heading1": "Claimant Details",
+      "button": {
+        "delete_Claim": "Delete Claim",
+        "delete": "Delete"
+      },
+      "status": "Status",
+      "approve_claim": "Approve Claim",
+      "notes": {
+        "label": "Notes (Optional)",
+        "button": {
+          "save": "Save Changes"
+        }
+      }
+    }
+  },
+  "user": {
+    "heading": "Users",
+    "heading1": "Profile",
+    "page_name": {
+      "dashboard": "Dashboard",
+      "user": "User",
+      "list": "List"
+    },
+    "button": {
+      "delete": "Delete"
+    },
+    "confirmation": {
+      "title": "Delete",
+      "description": "Are you sure you want to delete",
+      "items": "items?"
+    },
+    "list": {
+      "heading": {
+        "username": "Username",
+        "firstName": "First Name",
+        "mobile_number": "Phone Number",
+        "email": "Email",
+        "role": "Role",
+        "created_at": "Created At"
+      }
+    },
+    "table_row": {
+      "button": {
+        "delete": "Delete",
+        "view": "View User",
+        "edit": "Edit"
+      },
+      "confirmation": {
+        "title": "Delete",
+        "description": "Are you sure want to delete this user?",
+        "delete_button": "Delete"
+      }
+    },
+    "profile": {
+      "tabs": {
+        "profile": "Profile",
+        "businesses": "Businesses"
+      }
+    },
+    "update_menu": {
+      "form": {
+        "field": {
+          "username": {
+            "label": "Username",
+            "errors": {
+              "required": "Username name is required",
+              "invalid": "Enter valid Username",
+              "minLength": "Username is too short",
+              "maxLength": "Username is too long - should be at most 50 characters",
+              "regex": "Username must start with a letter, and only contain letters and numbers"
+            }
+          },
+          "first_name": {
+            "label": "First Name",
+            "errors": {
+              "required": "First name is required",
+              "invalid": "Enter valid First Name",
+              "minLength": "First Name is too short",
+              "maxLength": "First Name is too long - should be at most 50 characters",
+              "regex": "First Name must start with a letter, and only contain letters and numbers"
+            }
+          },
+          "last_name": {
+            "label": "Last Name",
+            "errors": {
+              "required": "Last name is required",
+              "invalid": "Enter valid Last Name",
+              "minLength": "Last Name is too short",
+              "maxLength": "Last Name is too long - should be at most 50 characters",
+              "regex": "Last Name must start with a letter, and only contain letters and numbers"
+            }
+          },
+          "email": {
+            "label": "Email Address",
+            "errors": {
+              "invalid": "Email must be a valid email address"
+            }
+          },
+          "mobile_number": {
+            "label": "Phone Number"
+          },
+          "profile_image": {
+            "errors": {
+              "isExist": "Please select a profile image",
+              "fileSize": "Profile image size is too large",
+              "fileType": "Invalid Profile image"
+            }
+          },
+          "role": {
+            "label": "Role"
+          }
+        },
+        "button": {
+          "save": "Save Changes"
+        }
+      }
+    }
+  },
+  "business": {
+    "heading": "Business",
+    "page_name": {
+      "dashboard": "Dashboard",
+      "business": "Business",
+      "list": "List"
+    },
+    "list": {
+      "notFound": "notFound",
+      "no_business": "No Business"
+    },
+    "button": {
+      "new": "New Business"
+    },
+    "create": {
+      "page_name": {
+        "dashboard": "Dashboard",
+        "business": "Business",
+        "new": "New Business"
+      },
+      "heading": "Create a new business",
+      "business_heading": "Business Details",
+      "business_detail": "Name, description, type, image...",
+      "address_heading": "Address Details",
+      "address_detail": "Location , city, state ...",
+      "other_heading": "Services & Amenities Details",
+      "other_detail": "Cuisines, Known for...",
+      "form": {
+        "field": {
+          "name": {
+            "name": "Business Name",
+            "placeholder": "Enter business name",
+            "errors": {
+              "required": "Business name is required",
+              "invalid": "Enter valid restaurant name",
+              "minLength": "Business name is too short - should be at least 1 characters",
+              "maxLength": "Business name is too long - should be at most 100 characters",
+              "regex": "Business name must contain at least one letter"
+            }
+          },
+          "profile_image": {
+            "name": "Business Profile Image",
+            "errors": {
+              "fileSize": "Profile image size is too large",
+              "fileType": "Invalid profile image"
+            }
+          },
+          "year_of_established": {
+            "name": "Established Year "
+          },
+          "business_whatsapp": {
+            "name": "Whatsapp Number"
+          },
+          "phone_number": {
+            "name": "Phone Number"
+          },
+          "phone_number_2": {
+            "name": "Secondary Phone Number"
+          },
+          "business_instagram": {
+            "name": "Instagram Profile Link",
+            "placeholder": "Enter instagram profile link"
+          },
+          "business_email": {
+            "name": "Business Email Address",
+            "placeholder": "Enter business email address"
+          },
+          "business_website": {
+            "name": "Business Website",
+            "placeholder": "Enter business website"
+          },
+          "average_bill": {
+            "name": "Average Bill",
+            "placeholder": "Enter average bill"
+          },
+          "business_capacity": {
+            "name": "Business Capacity",
+            "placeholder": "Enter business capacity"
+          },
+          "business_description": {
+            "name": "Business Description",
+            "placeholder": "Enter business description",
+            "errors": {
+              "invalid": "Enter valid description"
+            }
+          },
+          "type": {
+            "select": "Select",
+            "name": "Business Type",
+            "errors": {
+              "required": "Business type is required"
+            }
+          },
+          "address": {
+            "name": "Address",
+            "placeholder": "Enter business address",
+            "errors": {
+              "invalid": "Enter valid address"
+            }
+          },
+          "address_ru": {
+            "name": "Address (In Russian)",
+            "placeholder": "Enter business address (In Russian)",
+            "errors": {
+              "invalid": "Enter valid address"
+            }
+          },
+          "location": {
+            "name": "Location",
+            "placeholder": "Enter Location",
+            "errors": {
+              "invalid": "Enter valid location"
+            }
+          },
+          "city": {
+            "name": "City",
+            "placeholder": "Enter City",
+            "errors": {
+              "invalid": "Enter valid city"
+            }
+          },
+          "state": {
+            "name": "State",
+            "placeholder": "Enter State",
+            "errors": {
+              "invalid": "Enter valid state"
+            }
+          },
+          "country": {
+            "name": "Country",
+            "placeholder": "Enter Country",
+            "errors": {
+              "invalid": "Enter valid country"
+            }
+          },
+          "zipcode": {
+            "name": "Zipcode",
+            "placeholder": "Enter Zipcode",
+            "errors": {
+              "invalid": "Enter valid zipcode"
+            }
+          },
+          "locationConfig": "Select Location",
+          "cuisines": "Cuisines",
+          "known_for": {
+            "name": "Known For",
+            "placeholder": "Known For",
+            "errors": {
+              "invalid": "Enter valid known for"
+            }
+          },
+          "must_order": {
+            "name": "Must Order",
+            "placeholder": "Must Order",
+            "errors": {
+              "invalid": "Enter valid must order"
+            }
+          }
+        },
+        "button": {
+          "create": " Create Business"
+        }
+      }
+    },
+    "edit": {
+      "label": {
+        "basic_details": "Basic Details",
+        "amenities_services": "Amenities & Services",
+        "address_details": "Address Details",
+        "timings": "Timings",
+        "cuisines": "Cuisines",
+        "payment_methods": "Payment Methods"
+      },
+      "title": "Business not found!",
+      "button": "Back to List"
+    },
+    "profile": {
+      "label": {
+        "content": "Business Details",
+        "gallery": "Gallery",
+        "users": "Users",
+        "menus": "Menus"
+      },
+      "title": "Details not found!",
+      "description": "Look like business is not exist.",
+      "button": "Back to List"
+    },
+    "request_busiess": {
+      "heading": {
+        "request_list": "Request List",
+        "heading": "Request List",
+        "request_for": "Request For",
+        "request_by": "Raised By",
+        "type": "Request Type",
+        "is_approved": "Is Approved?",
+        "created_at": "Raised At",
+        "modified_at": "Updated At"
+      },
+      "page_name": {
+        "dashboard": "Dashboard",
+        "category": "Request",
+        "list": "List"
+      },
+      "title": "No Requests Found"
+    },
+    "business_sort_options": {
+      "label": {
+        "name": "Name",
+        "city": "City",
+        "created_at": "Created At",
+        "asc": "Ascending",
+        "desc": "Descending"
+      }
+    },
+    "tabs": {
+      "menus": {
+        "title": "Menus",
+        "button": {
+          "create": "Create Menu",
+          "upload": "Upload Menu"
+        },
+        "links": {
+          "dashboard": "Dashboard"
+        },
+        "list": {
+          "heading": {
+            "image": "Cover Image",
+            "name": "Name",
+            "price": "Price",
+            "type": "Type",
+            "description": "Description",
+            "isVeg": "Is Veg?",
+            "created_at": "Created At",
+            "modified_at": "Modified At"
+          },
+          "table_row": {
+            "button": {
+              "delete": "Delete"
+            },
+            "confirmation": {
+              "title": "Delete",
+              "description": "Are you sure you want to delete",
+              "menu": "menu?",
+              "delete_button": "Delete"
+            }
+          }
+        }
+      }
+    }
+  },
+  "service": {
+    "heading": "Service List",
+    "page_name": {
+      "dashboard": "Dashboard",
+      "service": "Service",
+      "list": "List"
+    },
+    "button": {
+      "new": "New Service",
+      "delete": "Delete"
+    },
+    "confirmation": {
+      "title": "Delete",
+      "description": "Are you sure you want to delete",
+      "items": "items?"
+    },
+    "list": {
+      "heading": {
+        "service_name": "Service Name",
+        "service_name_ru": "Service Name (in Russian)"
+      }
+    },
+    "table_row": {
+      "button": {
+        "delete": "Delete"
+      },
+      "confirmation": {
+        "title": "Delete",
+        "description": "Are you sure you want to delete",
+        "category": "category?",
+        "delete_button": "Delete"
+      }
+    },
+    "update_menu": {
+      "heading": {
+        "add": "Add",
+        "update": "Update",
+        "service": "Service"
+      },
+      "form": {
+        "field": {
+          "service_name": {
+            "label": "Service Name",
+            "errors": {
+              "required": "Service name is required",
+              "invalid": "Enter valid service name",
+              "minLength": "Service name is too short - should be at least 1 characters",
+              "maxLength": "Service name is too long - should be at most 50 characters",
+              "regex": "Service name must start with a letter, and only contain letters and numbers"
+            }
+          },
+          "service_name_ru": {
+            "label": "Service Name (in Russian)",
+            "errors": {
+              "required": "Service name is required",
+              "invalid": "Enter valid service name",
+              "minLength": "Service name is too short - should be at least 1 characters",
+              "maxLength": "Service name is too long - should be at most 50 characters",
+              "regex": "Service name must start with a letter, and only contain letters and numbers"
+            }
+          }
+        }
+      }
+    }
+  },
+  "dispute": {
+    "heading": "Dispute List",
+    "links": {
+      "dashboard": "Dashboard",
+      "dispute": "Dispute",
+      "list": "List"
+    },
+    "list": {
+      "heading": {
+        "raisedBy": "Raised By",
+        "status": "Status",
+        "createdAt": "Created At",
+        "modifiedAt": "Modified At"
+      },
+      "emptyText": "No Disputes Found"
+    },
+    "confirmation": {
+      "deleteText": "Are you sure want to delete",
+      "items": "items?",
+      "disputeDeleteText": "Are you sure want to delete this dispute?"
+    },
+    "button": {
+      "delete": "Delete",
+      "close": "Close",
+      "replay": "Replay"
+    },
+    "form": {
+      "heading": "User Dispute",
+      "fields": {
+        "replay": {
+          "label": "Replay",
+          "placeholder": "Enter replay here",
+          "errors": {
+            "required": "Replay is required",
+            "invalid": "Enter valid replay",
+            "minLength": "Replay is too short",
+            "maxLength": "Replay is too long - should be at most 1000 characters",
+            "regex": "Replay must start with a letter, and only contain letters and numbers"
+          }
+        }
+      }
+    },
+    "tooltips": {
+      "view": "View Dispute"
+    }
+  },
+  "ads": {
+    "heading": "Advertisement List",
+    "page_name": {
+      "dashboard": "Dashboard",
+      "ads": "Advertisement",
+      "list": "List"
+    },
+    "button": {
+      "new": "New Advertisement",
+      "delete": "Delete"
+    },
+    "confirmation": {
+      "title": "Delete",
+      "description": "Are you sure you want to delete",
+      "items": "items?"
+    },
+    "list": {
+      "heading": {
+        "cover_img": "Cover Image",
+        "priority": "Priority",
+        "is_active": "Status",
+        "created_at": "Created At",
+        "modified_at": "Modified At"
+      }
+    },
+    "table_row": {
+      "button": {
+        "delete": "Delete"
+      },
+      "confirmation": {
+        "title": "Delete",
+        "description": "Are you sure you want to delete this ads?",
+        "delete_button": "Delete"
+      }
+    },
+    "update_menu": {
+      "heading": {
+        "add": "Add",
+        "update": "Update",
+        "ads": "Advertisement"
+      },
+      "form": {
+        "field": {
+          "description": {
+            "label": "Description",
+            "placeholder": "Enter advertisement description",
+            "errors": {
+              "required": "Ads name is required",
+              "invalid": "Enter valid Ads name",
+              "minLength": "Ads name is too short - should be at least 1 characters",
+              "maxLength": "Ads name is too long - should be at most 1000 characters",
+              "regex": "Service name must start with a letter, and only contain letters and numbers"
+            }
+          },
+          "cover_img": {
+            "name": "Cover Image",
+            "errors": {
+              "isExist": "Please select a cover image",
+              "fileSize": "Cover image size is too large",
+              "fileType": "Invalid cover image"
+            }
+          }
+        },
+        "button": {
+          "cancel": "Cancel",
+          "update": "Update",
+          "create": "Create"
+        }
+      }
+    }
+  },
+  "reportedReview": {
+    "heading": "Reported Review List",
+    "links": {
+      "dashboard": "Dashboard",
+      "reportedReviews": "Reported Reviews",
+      "list": "List"
+    },
+    "list": {
+      "heading": {
+        "business": "Business",
+        "reviewer": "Reviewer",
+        "rating": "Rating",
+        "reportedAt": "Reported At",
+        "modifiedAt": "Modified At"
+      },
+      "emptyText": "No Reported Reviews Found"
+    },
+    "confirmation": {
+      "confirmationText": "Are you sure want to delete",
+      "items": "items?",
+      "reviewDeleteText": "Are you sure want to delete review?"
+    },
+    "button": {
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "approve": "Approve"
+    },
+    "review": {
+      "heading": "Reported Review",
+      "verified": "Verified User"
+    },
+    "tooltips": {
+      "view": "View Review"
+    }
+  }
+}
